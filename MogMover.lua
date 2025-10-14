@@ -428,3 +428,13 @@ end)
 windower.register_event('zone change', function()
     move_queue = T{}  -- Clear queue on zone change
 end)
+
+-- Clear queue on logout
+windower.register_event('logout', function()
+    move_queue = T{}  -- Clear queue on logout
+end)
+
+-- Clear queue on addon unload
+windower.register_event('unload', function()
+    move_queue = T{}  -- Clear queue on unload
+end)
