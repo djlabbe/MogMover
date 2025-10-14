@@ -231,7 +231,6 @@ local function add_mapping(item_name, storage_name)
                 if not already_queued then
                     move_queue:append({item_id = item_id, storage = normalize_storage_name(storage_name)})
                     local item_data = res.items[item_id]
-                    log('Queued %s for moving':format(item_data.name))
                 end
             end
         else
