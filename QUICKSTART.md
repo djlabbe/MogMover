@@ -54,24 +54,17 @@ Use your items, then turn it back on:
 
 ### Crafting Materials
 ```
-//mm add "Copper Ore" storage
-//mm add "Iron Ore" storage
-//mm add "Mythril Ore" storage
-```
-
-### Seals and Currencies
-```
-//mm add "Beastmen's Seal" safe
-//mm add "Kindred's Seal" safe
-//mm add "One Byne Bill" safe
+//mm add "Copper Ore" satchel
+//mm add "Iron Ore" satchel
+//mm add "Mythril Ore" satchel
 ```
 
 ### Setting Up Multiple Mappings While Disabled
 ```
 //mm off
-//mm add "Copper Ore" storage
-//mm add "Iron Ore" storage
-//mm add "Mythril Ore" storage
+//mm add "Copper Ore" satchel
+//mm add "Iron Ore" satchel
+//mm add "Mythril Ore" satchel
 //mm on
 // All three items (if in inventory) are now queued and moving!
 ```

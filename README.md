@@ -8,7 +8,7 @@ A Windower addon for FFXI that automatically moves items from your inventory to 
 - **Toggle On/Off**: Easily disable auto-moving when you need to use items
 - **Item Mapping**: Build a list of item-to-storage mappings
 - **Queue System**: Safely queues and processes moves with configurable delays
-- **Multiple Storage Support**: Supports all Mog storage locations
+- **Multiple Storage Support**: Supports Mog Satchel, Sack, and Case
 
 ## Installation
 
@@ -33,7 +33,7 @@ All commands can be used with `//mogmover`, `//mm`:
 
 - `//mm add <item name> <storage>` - Add an item mapping
   - Example: `//mm add "Ra'Kaznar Starstone" "mog case"`
-  - Example: `//mm add "Copper Ore" safe`
+  - Example: `//mm add "Copper Ore" satchel`
   - **Note:** If the item is currently in your inventory, it will be automatically queued to move!
   
 - `//mm remove <item name>` - Remove an item mapping
@@ -54,18 +54,9 @@ All commands can be used with `//mogmover`, `//mm`:
 
 The following storage locations are supported:
 
-### Primary Storage
-- `safe` or `mog safe` - Mog Safe
-- `safe2` or `mog safe 2` - Mog Safe 2
-- `storage` or `mog storage` - Mog Storage
-- `locker` or `mog locker` - Mog Locker
 - `satchel` or `mog satchel` - Mog Satchel
 - `sack` or `mog sack` - Mog Sack
 - `case` or `mog case` - Mog Case
-
-### Wardrobes
-- `wardrobe` - Mog Wardrobe
-- `wardrobe2` through `wardrobe8` - Mog Wardrobe 2-8
 
 ## Usage Examples
 
@@ -79,9 +70,9 @@ The following storage locations are supported:
 
 ### Example 2: Auto-store crafting materials
 ```
-//mm add "Copper Ore" storage
-//mm add "Iron Ore" storage
-//mm add "Mythril Ore" storage
+//mm add "Copper Ore" satchel
+//mm add "Iron Ore" satchel
+//mm add "Mythril Ore" satchel
 ```
 
 ### Example 3: Temporarily disable for using items
@@ -106,9 +97,9 @@ The following storage locations are supported:
 ### Example 6: Add mappings while disabled, then enable to move them all
 ```
 //mm off
-//mm add "Copper Ore" storage
-//mm add "Iron Ore" storage
-//mm add "Mythril Ore" storage
+//mm add "Copper Ore" satchel
+//mm add "Iron Ore" satchel
+//mm add "Mythril Ore" satchel
 // Items are mapped but won't move yet since it's disabled
 //mm on
 // Now all three items (if in inventory) are automatically queued and moved!
@@ -163,7 +154,7 @@ The configuration includes:
 - Initial release
 - Automatic item moving with configurable mappings
 - Toggle on/off functionality
-- Support for all Mog storage locations
+- Support for Mog Satchel, Sack, and Case
 - Queue system with configurable delays
 
 ## Credits

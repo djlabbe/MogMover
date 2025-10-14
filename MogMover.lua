@@ -25,44 +25,19 @@ local processing = false
 
 -- Valid storage locations mapping
 local storage_map = T{
-    ['inventory'] = 0,
-    ['safe'] = 1,
-    ['storage'] = 2,
-    ['temporary'] = 3,
-    ['locker'] = 4,
     ['satchel'] = 5,
     ['sack'] = 6,
     ['case'] = 7,
-    ['wardrobe'] = 8,
-    ['safe2'] = 9,
-    ['wardrobe2'] = 10,
-    ['wardrobe3'] = 11,
-    ['wardrobe4'] = 12,
-    ['wardrobe5'] = 13,
-    ['wardrobe6'] = 14,
-    ['wardrobe7'] = 15,
-    ['wardrobe8'] = 16,
 }
 
 -- Aliases for storage names
 local storage_aliases = T{
-    ['mog safe'] = 'safe',
-    ['mogsafe'] = 'safe',
-    ['mog storage'] = 'storage',
-    ['mogstorage'] = 'storage',
-    ['mog locker'] = 'locker',
-    ['moglocker'] = 'locker',
     ['mog satchel'] = 'satchel',
     ['mogsatchel'] = 'satchel',
     ['mog sack'] = 'sack',
     ['mogsack'] = 'sack',
     ['mog case'] = 'case',
     ['mogcase'] = 'case',
-    ['mog safe 2'] = 'safe2',
-    ['mogsafe2'] = 'safe2',
-    ['inv'] = 'inventory',
-    ['temp'] = 'temporary',
-    ['tmp'] = 'temporary',
 }
 
 -- Normalize storage name
@@ -380,8 +355,7 @@ windower.register_event('addon command', function(command, ...)
         log('  //mm check       - Manually check inventory')
         log('  //mm delay [sec] - View/set move delay')
         log('')
-        log('Storage locations: safe, safe2, storage, locker, satchel, sack, case')
-        log('                   wardrobe, wardrobe2-8')
+        log('Storage locations: satchel, sack, case')
         log('')
         log('Example: //mm add "Ra\'Kaznar Starstone" "mog case"')
         

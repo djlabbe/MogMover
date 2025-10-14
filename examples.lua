@@ -13,14 +13,6 @@
 -- //mm add "Gin's Scale" case
 
 -- ============================================
--- DYNAMIS CURRENCIES
--- ============================================
--- //mm add "Hundred Byne Bill" safe
--- //mm add "One Byne Bill" safe
--- //mm add "Montiont Silverpiece" safe
--- //mm add "Lungo-Nango Jadeshell" safe
-
--- ============================================
 -- AMBUSCADE HALLMARKS/VOUCHERS
 -- ============================================
 -- //mm add "Hallmark" sack
@@ -29,26 +21,26 @@
 -- //mm add "Total Gallantry" sack
 
 -- ============================================
--- CRAFTING MATERIALS (store in Mog Storage)
+-- CRAFTING MATERIALS (store in Mog Satchel)
 -- ============================================
 -- Ores
--- //mm add "Copper Ore" storage
--- //mm add "Iron Ore" storage
--- //mm add "Mythril Ore" storage
--- //mm add "Gold Ore" storage
--- //mm add "Platinum Ore" storage
--- //mm add "Darksteel Ore" storage
+-- //mm add "Copper Ore" satchel
+-- //mm add "Iron Ore" satchel
+-- //mm add "Mythril Ore" satchel
+-- //mm add "Gold Ore" satchel
+-- //mm add "Platinum Ore" satchel
+-- //mm add "Darksteel Ore" satchel
 
 -- Cloth
--- //mm add "Cotton Cloth" storage
--- //mm add "Linen Cloth" storage
--- //mm add "Wool Cloth" storage
--- //mm add "Silk Cloth" storage
+-- //mm add "Cotton Cloth" satchel
+-- //mm add "Linen Cloth" satchel
+-- //mm add "Wool Cloth" satchel
+-- //mm add "Silk Cloth" satchel
 
 -- Leather
--- //mm add "Sheep Leather" storage
--- //mm add "Dhalmel Leather" storage
--- //mm add "Ram Leather" storage
+-- //mm add "Sheep Leather" satchel
+-- //mm add "Dhalmel Leather" satchel
+-- //mm add "Ram Leather" satchel
 
 -- ============================================
 -- CRAFTING CRYSTALS (store in Satchel)
@@ -69,18 +61,5 @@
 -- //mm add "Lustreless Wing" case
 -- //mm add "Lustreless Scale" case
 -- //mm add "Lustreless Hide" case
-
--- ============================================
--- OTHER COMMON ITEMS
--- ============================================
--- Beastmen Seals
--- //mm add "Beastmen's Seal" safe
--- //mm add "Kindred's Seal" safe
--- //mm add "Kindred's Crest" safe
--- //mm add "High Kindred's Crest" safe
--- //mm add "Sacred Kindred's Crest" safe
-
--- Alexandrite
--- //mm add "Alexandrite" safe
 
 -- Note: Remember to use //mm off when you need to actually use these items!
