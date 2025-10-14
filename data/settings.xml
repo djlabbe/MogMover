@@ -4,15 +4,7 @@
         <delay>1.5</delay>
         <enabled>true</enabled>
         <mappings>
-            <3509>case</3509>
-            <4060>case</4060>
-            <4061>case</4061>
-            <8711>case</8711>
-            <8798>case</8798>
-            <8973>case</8973>
-            <9277>case</9277>
-            <9927>case</9927>
-            <9928>case</9928>
+          
         </mappings>
     </global>
 </settings>
